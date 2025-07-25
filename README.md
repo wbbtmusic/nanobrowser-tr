@@ -2,7 +2,6 @@
     <img src="https://github.com/user-attachments/assets/ec60b0c4-87ba-48f4-981a-c55ed0e8497b" height="100" width="375" alt="banner" /><br>
 </h1>
 
-
 <div align="center">
 
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/nanobrowser)
@@ -14,239 +13,254 @@
 
 ## 🌐 Nanobrowser
 
-Nanobrowser is an open-source AI web automation tool that runs in your browser. A free alternative to OpenAI Operator with flexible LLM options and multi-agent system.
+Nanobrowser, tarayıcınızda çalışan açık kaynaklı bir yapay zeka web otomasyon aracıdır. Esnek LLM seçenekleri ve çoklu ajan sistemiyle birlikte OpenAI Operator’a ücretsiz bir alternatiftir.
 
-⬇️ Get [Nanobrowser from Chrome Web Store](https://chromewebstore.google.com/detail/nanobrowser/imbddededgmcgfhfpcjmijokokekbkal) for free
+⬇️ [Nanobrowser’ı Chrome Web Mağazası’ndan ücretsiz edinin](https://chromewebstore.google.com/detail/nanobrowser/imbddededgmcgfhfpcjmijokokekbkal)
 
-👏 Join the community in [Discord](https://discord.gg/NN3ABHggMK) | [X](https://x.com/nanobrowser_ai)
+👏 Topluluğa katılın: [Discord](https://discord.gg/NN3ABHggMK) | [X](https://x.com/nanobrowser_ai)
 
-❤️ Loving Nanobrowser? Give us a star 🌟 and help spread the word!
+❤️ Nanobrowser’ı sevdiniz mi? Bize bir yıldız ⭐ verin ve yayılmasına yardımcı olun!
 
 <div align="center">
 <img src="https://github.com/user-attachments/assets/112c4385-7b03-4b81-a352-4f348093351b" width="600" alt="Nanobrowser Demo GIF" />
-<p><em>Nanobrowser's multi-agent system analyzing HuggingFace in real-time, with the Planner intelligently self-correcting when encountering obstacles and dynamically instructing the Navigator to adjust its approach—all running locally in your browser.</em></p>
+<p><em>Nanobrowser’ın çoklu ajan sistemi, HuggingFace'i gerçek zamanlı analiz ederken; Planner engellerle karşılaştığında akıllıca kendi kendini düzeltir ve Navigator’a yaklaşımını dinamik olarak ayarlamasını söyler—tüm bunlar yerel olarak tarayıcınızda gerçekleşir.</em></p>
 </div>
 
-## 🔥Why Nanobrowser?
+## 🔥Neden Nanobrowser?
 
-Looking for a powerful AI web agent without the $200/month price tag of OpenAI Operator? **Nanobrowser** , as a chrome extension, delivers premium web automation capabilities while keeping you in complete control:
+OpenAI Operator’ın aylık 200 dolarlık ücretinden kurtulmak mı istiyorsunuz? **Nanobrowser**, bir Chrome uzantısı olarak size premium web otomasyonu yetenekleri sunar ve tam kontrolü elinizde tutmanızı sağlar:
 
-- **100% Free** - No subscription fees or hidden costs. Just install and use your own API keys, and you only pay what you use with your own API keys.
-- **Privacy-Focused** - Everything runs in your local browser. Your credentials stay with you, never shared with any cloud service.
-- **Flexible LLM Options** - Connect to your preferred LLM providers with the freedom to choose different models for different agents.
-- **Fully Open Source** - Complete transparency in how your browser is automated. No black boxes or hidden processes.
+- **%100 Ücretsiz** - Abonelik ücreti veya gizli maliyetler yok. Sadece yükleyin ve kendi API anahtarlarınızı kullanın, ne kadar kullanırsanız o kadar ödersiniz.
+- **Gizlilik Odaklı** - Her şey yerel tarayıcınızda çalışır. Kimlik bilgileriniz yalnızca sizde kalır, bulut hizmetleriyle paylaşılmaz.
+- **Esnek LLM Seçenekleri** - Tercih ettiğiniz LLM sağlayıcılarına bağlanın, farklı ajanlar için farklı modeller seçme özgürlüğünüz olsun.
+- **Tamamen Açık Kaynak** - Tarayıcınızın nasıl otomatikleştirildiğini şeffaf bir şekilde görün. Gizli süreçler yok.
 
-> **Note:** We currently support OpenAI, Anthropic, Gemini, Ollama, Groq, Cerebras and custom OpenAI-Compatible providers, more providers will be supported.
+> **Not:** Şu anda OpenAI, Anthropic, Gemini, Ollama, Groq, Cerebras ve OpenAI uyumlu özel sağlayıcıları destekliyoruz. Daha fazlası yolda.
 
+## 📊 Temel Özellikler
 
-## 📊 Key Features
+- **Çoklu Ajan Sistemi**: Uzmanlaşmış yapay zeka ajanları, karmaşık web görevlerini birlikte gerçekleştirir
+- **Etkileşimli Yan Panel**: Gerçek zamanlı durum güncellemeleriyle sezgisel sohbet arayüzü
+- **Görev Otomasyonu**: Web siteleri arasında tekrar eden görevleri sorunsuz şekilde otomatikleştirir
+- **Takip Soruları**: Tamamlanan görevler hakkında bağlamsal takip soruları sorabilirsiniz
+- **Konuşma Geçmişi**: Yapay zeka ajanlarınızla olan geçmiş etkileşimlere kolay erişim
+- **Çoklu LLM Desteği**: Tercih ettiğiniz LLM sağlayıcılarına bağlanın, farklı ajanlara farklı modeller atayın
 
-- **Multi-agent System**: Specialized AI agents collaborate to accomplish complex web workflows
-- **Interactive Side Panel**: Intuitive chat interface with real-time status updates
-- **Task Automation**: Seamlessly automate repetitive web automation tasks across websites
-- **Follow-up Questions**: Ask contextual follow-up questions about completed tasks
-- **Conversation History**: Easily access and manage your AI agent interaction history
-- **Multiple LLM Support**: Connect your preferred LLM providers and assign different models to different agents
+## 🌐 Tarayıcı Desteği
 
+**Resmi olarak desteklenenler:**
+- **Chrome** – Tüm özelliklerle tam destek
+- **Edge** – Tüm özelliklerle tam destek
 
-## 🌐 Browser Support
+**Desteklenmeyenler:**
+- Firefox, Safari ve diğer Chromium türevleri (Opera, Arc vb.)
 
-**Officially Supported:**
-- **Chrome** - Full support with all features
-- **Edge** - Full support with all features
+> **Not**: Nanobrowser diğer Chromium tabanlı tarayıcılarda çalışabilir, ancak en iyi deneyim ve garantili uyumluluk için Chrome veya Edge öneriyoruz.
 
-**Not Supported:**
-- Firefox, Safari, and other Chromium variants (Opera, Arc, etc.)
+## 🚀 Hızlı Başlangıç
 
-> **Note**: While Nanobrowser may function on other Chromium-based browsers, we recommend using Chrome or Edge for the best experience and guaranteed compatibility.
+1. **Chrome Web Mağazası’ndan Kurulum** (Kararlı Sürüm):
+   * [Nanobrowser Chrome Web Mağazası sayfasına](https://chromewebstore.google.com/detail/nanobrowser/imbddededgmcgfhfpcjmijokokekbkal) gidin
+   * "Chrome’a Ekle" butonuna tıklayın
+   * Kurulumu onaylayın
 
+> **Önemli Not**: En yeni özellikler için aşağıdaki ["En Son Sürümü Manuel Kur"](##-manually-install-latest-version) kısmından kurulum yapmanızı öneririz. Chrome Web Mağazası versiyonu inceleme süreci nedeniyle gecikebilir.
 
-## 🚀 Quick Start
+2. **Ajan Modellerini Yapılandırın**:
+   * Araç çubuğundaki Nanobrowser simgesine tıklayın
+   * Sağ üstteki `Ayarlar` simgesine tıklayın
+   * LLM API anahtarlarınızı ekleyin
+   * Farklı ajanlar (Navigator, Planner, Validator) için hangi modelin kullanılacağını seçin
 
-1. **Install from Chrome Web Store** (Stable Version):
-   * Visit the [Nanobrowser Chrome Web Store page](https://chromewebstore.google.com/detail/nanobrowser/imbddededgmcgfhfpcjmijokokekbkal)
-   * Click "Add to Chrome" button
-   * Confirm the installation when prompted
+## 🔧 En Son Sürümü Manuel Kur
 
-> **Important Note**: For latest features, install from ["Manually Install Latest Version"](#-manually-install-latest-version) below, as Chrome Web Store version may be delayed due to review process.
+En yeni özellikleri içeren en güncel sürümü kurmak için:
 
-2. **Configure Agent Models**:
-   * Click the Nanobrowser icon in your toolbar to open the sidebar
-   * Click the `Settings` icon (top right)
-   * Add your LLM API keys
-   * Choose which model to use for different agents (Navigator, Planner, Validator)
+1. **İndirin**
+    * Resmi Github [sürüm sayfasından](https://github.com/nanobrowser/nanobrowser/releases) en güncel `nanobrowser.zip` dosyasını indirin
 
-## 🔧 Manually Install Latest Version
+2. **Kurulum**:
+    * `nanobrowser.zip` dosyasını çıkarın
+    * Chrome'da `chrome://extensions/` adresine gidin
+    * Sağ üstten `Geliştirici modu`nu etkinleştirin
+    * Sol üstte `Paketlenmemişi yükle`ye tıklayın
+    * Çıkardığınız `nanobrowser` klasörünü seçin
 
-To get the most recent version with all the latest features:
+3. **Ajan Modellerini Yapılandırın**
+    * Nanobrowser simgesine tıklayarak yan paneli açın
+    * Sağ üstteki `Ayarlar` simgesine tıklayın
+    * API anahtarlarınızı ekleyin
+    * Ajanlara model atayın (Navigator, Planner, Validator)
 
-1. **Download**
-    * Download the latest `nanobrowser.zip` file from the official Github [release page](https://github.com/nanobrowser/nanobrowser/releases).
+4. **Güncelleme**:
+    * Yeni `nanobrowser.zip` dosyasını indirin
+    * Mevcut Nanobrowser dosyalarını yenileriyle değiştirin
+    * `chrome://extensions/` sayfasına gidip Nanobrowser kartındaki yenile simgesine tıklayın
 
-2. **Install**:
-    * Unzip `nanobrowser.zip`.
-    * Open `chrome://extensions/` in Chrome
-    * Enable `Developer mode` (top right)
-    * Click `Load unpacked` (top left)
-    * Select the unzipped `nanobrowser` folder.
+## 🛠️ Kaynaktan Derleme
 
-3. **Configure Agent Models**
-    * Click the Nanobrowser icon in your toolbar to open the sidebar
-    * Click the `Settings` icon (top right).
-    * Add your LLM API keys.
-    * Choose which model to use for different agents (Navigator, Planner, Validator)
+Nanobrowser’ı kendiniz derlemek isterseniz şu adımları izleyin:
 
-4. **Upgrading**:
-    * Download the latest `nanobrowser.zip` file from the release page.
-    * Unzip and replace your existing Nanobrowser files with the new ones.
-    * Go to `chrome://extensions/` in Chrome and click the refresh icon on the Nanobrowser card.
+1. **Gereksinimler**:
+   * [Node.js](https://nodejs.org/) (v22.12.0 veya üstü)
+   * [pnpm](https://pnpm.io/installation) (v9.15.1 veya üstü)
 
-## 🛠️ Build from Source
-
-If you prefer to build Nanobrowser yourself, follow these steps:
-
-1. **Prerequisites**:
-   * [Node.js](https://nodejs.org/) (v22.12.0 or higher)
-   * [pnpm](https://pnpm.io/installation) (v9.15.1 or higher)
-
-2. **Clone the Repository**:
+2. **Depoyu Klonlayın**:
    ```bash
    git clone https://github.com/nanobrowser/nanobrowser.git
    cd nanobrowser
    ```
 
-3. **Install Dependencies**:
+3. **Bağımlılıkları Yükleyin**:
+
    ```bash
    pnpm install
    ```
 
-4. **Build the Extension**:
+4. **Eklentiyi Derleyin**:
+
    ```bash
    pnpm build
    ```
 
-5. **Load the Extension**:
-   * The built extension will be in the `dist` directory
-   * Follow the installation steps from the Manually Install section to load the extension into your browser
+5. **Eklentiyi Yükleyin**:
 
-6. **Development Mode** (optional):
+   * Derlenen eklenti `dist` klasöründe bulunur
+   * Manuel Kurulum bölümündeki adımları takip ederek yükleyin
+
+6. **Geliştirme Modu** (isteğe bağlı):
+
    ```bash
    pnpm dev
    ```
 
-## 🤖 Choosing Your Models
+## 🤖 Model Seçimi
 
-Nanobrowser allows you to configure different LLM models for each agent to balance performance and cost. Here are recommended configurations:
+Nanobrowser, her ajan için farklı LLM modelleri ayarlamanıza olanak tanır. Böylece performans ve maliyet arasında denge kurabilirsiniz. İşte önerilen yapılandırmalar:
 
-### Better Performance
-- **Planner & Validator**: Claude 3.7 Sonnet
-  - Better reasoning and planning capabilities
-  - More reliable task validation
-- **Navigator**: Claude 3.5 Haiku
-  - Efficient for web navigation tasks
-  - Good balance of performance and cost
+### Daha Yüksek Performans
 
-### Cost-Effective Configuration
-- **Planner & Validator**: Claude Haiku or GPT-4o
-  - Reasonable performance at lower cost
-  - May require more iterations for complex tasks
-- **Navigator**: Gemini 2.0 Flash or GPT-4o-mini
-  - Lightweight and cost-efficient
-  - Suitable for basic navigation tasks
+* **Planner & Validator**: Claude 3.7 Sonnet
 
-### Local Models
-- **Setup Options**:
-  - Use Ollama or other custom OpenAI-compatible providers to run models locally
-  - Zero API costs and complete privacy with no data leaving your machine
+  * Daha iyi mantıksal düşünme ve planlama
+  * Daha güvenilir görev doğrulama
+* **Navigator**: Claude 3.5 Haiku
 
-- **Recommended Models**:
-  - **Qwen3 14B**
-  - **Falcon3 10B**
-  - **Qwen 2.5 Coder 14B**
-  - **Mistral Small 24B**
-  - We welcome community experience sharing with other local models in our [Discord](https://discord.gg/NN3ABHggMK)
+  * Web gezintisi görevlerinde verimli
+  * Performans ve maliyet dengesi
 
-- **Prompt Engineering**:
-  - Local models require more specific and cleaner prompts
-  - Avoid high-level, ambiguous commands
-  - Break complex tasks into clear, detailed steps
-  - Provide explicit context and constraints
+### Uygun Maliyetli Yapılandırma
 
-> **Note**: The cost-effective configuration may produce less stable outputs and require more iterations for complex tasks.
+* **Planner & Validator**: Claude Haiku veya GPT-4o
 
-> **Tip**: Feel free to experiment with your own model configurations! Found a great combination? Share it with the community in our [Discord](https://discord.gg/NN3ABHggMK) to help others optimize their setup.
+  * Düşük maliyetle makul performans
+  * Karmaşık görevlerde daha fazla yineleme gerekebilir
+* **Navigator**: Gemini 2.0 Flash veya GPT-4o-mini
 
-## 💡 See It In Action
+  * Hafif ve ekonomik
+  * Temel gezinme görevleri için yeterli
 
-Here are some powerful tasks you can accomplish with just a sentence:
+### Yerel Modeller
 
-1. **News Summary**:
-   > "Go to TechCrunch and extract top 10 headlines from the last 24 hours"
+* **Kurulum Seçenekleri**:
 
-2. **GitHub Research**:
-   > "Look for the trending Python repositories on GitHub with most stars"
+  * Ollama veya diğer OpenAI uyumlu sağlayıcılar ile modelleri yerel olarak çalıştırın
+  * Sıfır API maliyeti ve tam gizlilik
 
-3. **Shopping Research**:
-   > "Find a portable Bluetooth speaker on Amazon with a water-resistant design, under $50. It should have a minimum battery life of 10 hours"
+* **Önerilen Modeller**:
 
-## 🛠️ Roadmap
+  * **Qwen3 14B**
+  * **Falcon3 10B**
+  * **Qwen 2.5 Coder 14B**
+  * **Mistral Small 24B**
+  * Diğer yerel modellerle deneyimlerinizi [Discord](https://discord.gg/NN3ABHggMK)'da paylaşabilirsiniz
 
-We're actively developing Nanobrowser with exciting features on the horizon, welcome to join us! 
+* **Prompt Mühendisliği**:
 
-Check out our detailed roadmap and upcoming features in our [GitHub Discussions](https://github.com/nanobrowser/nanobrowser/discussions/85). 
+  * Yerel modeller daha net ve özgül komutlar ister
+  * Yüksek seviyeli, belirsiz komutlardan kaçının
+  * Karmaşık görevleri adım adım açık şekilde verin
+  * Net bağlam ve kısıtlamalar belirtin
 
-## 🤝 Contributing
+> **Not**: Ucuz yapılandırmalar daha az kararlı çıktı verebilir ve karmaşık görevlerde daha fazla yineleme gerekebilir.
 
-**We need your help to make Nanobrowser even better!**  Contributions of all kinds are welcome:
+> **İpucu**: Kendi model yapılandırmalarınızı denemekten çekinmeyin! Harika bir kombinasyon buldunuz mu? [Discord](https://discord.gg/NN3ABHggMK)'da toplulukla paylaşın.
 
-*  **Share Prompts & Use Cases** 
-   * Join our [Discord server](https://discord.gg/NN3ABHggMK).
-   * share how you're using Nanobrowser.  Help us build a library of useful prompts and real-world use cases.
-*  **Provide Feedback** 
-   * Try Nanobrowser and give us feedback on its performance or suggest improvements in our [Discord server](https://discord.gg/NN3ABHggMK).
-* **Contribute Code**
-   * Check out our [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines on how to contribute code to the project.
-   * Submit pull requests for bug fixes, features, or documentation improvements.
+## 💡 Uygulamalı Örnekler
 
+Sadece bir cümleyle gerçekleştirebileceğiniz güçlü görevlerden bazıları:
 
-We believe in the power of open source and community collaboration.  Join us in building the future of web automation!
+1. **Haber Özeti**:
 
+   > "TechCrunch'a git ve son 24 saatteki en popüler 10 başlığı çıkar"
 
-## 🔒 Security
+2. **GitHub Araştırması**:
 
-If you discover a security vulnerability, please **DO NOT** disclose it publicly through issues, pull requests, or discussions.
+   > "En çok yıldız almış popüler Python depolarını GitHub'da bul"
 
-Instead, please create a [GitHub Security Advisory](https://github.com/nanobrowser/nanobrowser/security/advisories/new) to report the vulnerability responsibly. This allows us to address the issue before it's publicly disclosed.
+3. **Alışveriş Araştırması**:
 
-We appreciate your help in keeping Nanobrowser and its users safe!
+   > "Amazon’da suya dayanıklı, 10 saat batarya ömrüne sahip, 50 doların altında taşınabilir bir Bluetooth hoparlör bul"
 
-## 💬 Community
+## 🛠️ Yol Haritası
 
-Join our growing community of developers and users:
+Nanobrowser için heyecan verici yeni özellikler geliştiriyoruz, katılmak ister misiniz?
 
-- [Discord](https://discord.gg/NN3ABHggMK) - Chat with team and community
-- [Twitter](https://x.com/nanobrowser_ai) - Follow for updates and announcements
-- [GitHub Discussions](https://github.com/nanobrowser/nanobrowser/discussions) - Share ideas and ask questions
+Detaylı yol haritamıza ve gelecek özelliklere [GitHub Discussions](https://github.com/nanobrowser/nanobrowser/discussions/85) üzerinden göz atabilirsiniz.
 
-## 👏 Acknowledgments
+## 🤝 Katkıda Bulunun
 
-Nanobrowser builds on top of other awesome open-source projects:
+**Nanobrowser’ı daha iyi hale getirmemize yardım edin!** Her türden katkıya açığız:
 
-- [Browser Use](https://github.com/browser-use/browser-use)
-- [Puppeteer](https://github.com/EmergenceAI/Agent-E)
-- [Chrome Extension Boilerplate](https://github.com/Jonghakseo/chrome-extension-boilerplate-react-vite)
-- [LangChain](https://github.com/langchain-ai/langchainjs)
+* **Prompt & Kullanım Senaryoları Paylaşın**
 
-Huge thanks to their creators and contributors!
+  * [Discord sunucumuza](https://discord.gg/NN3ABHggMK) katılın
+  * Nanobrowser’ı nasıl kullandığınızı anlatın ve topluluk kütüphanemizi büyütün
+* **Geri Bildirim Verin**
 
+  * Nanobrowser’ı deneyin ve performansı hakkında önerilerinizi paylaşın
+* **Kod Katkısı Yapın**
 
-## 📄 License
+  * Kod katkısı için yönergeleri [CONTRIBUTING.md](CONTRIBUTING.md) dosyasında bulabilirsiniz
+  * Hatalar, özellikler veya dökümantasyon iyileştirmeleri için pull request gönderin
 
-This project is licensed under the Apache License 2.0 - see the [LICENSE](LICENSE) file for details.
+Açık kaynak ve topluluk iş birliğine inanıyoruz. Web otomasyonunun geleceğini birlikte inşa edelim!
 
-Made with ❤️ by the Nanobrowser Team. 
+## 🔒 Güvenlik
 
-Like Nanobrowser? Give us a star 🌟 and join us in [Discord](https://discord.gg/NN3ABHggMK) | [X](https://x.com/nanobrowser_ai)
+Bir güvenlik açığı keşfederseniz, lütfen bunu açık şekilde **issue, pull request veya discussion** yoluyla paylaşmayın.
 
+Bunun yerine, [GitHub Güvenlik Danışma Sayfası](https://github.com/nanobrowser/nanobrowser/security/advisories/new) üzerinden özel olarak bildirin. Böylece açığı kamuya açıklanmadan önce düzeltme şansı buluruz.
 
+Nanobrowser’ı ve kullanıcılarını güvende tutmaya yardım ettiğiniz için teşekkür ederiz!
 
+## 💬 Topluluk
+
+Giderek büyüyen geliştirici ve kullanıcı topluluğumuza katılın:
+
+* [Discord](https://discord.gg/NN3ABHggMK) – Ekip ve toplulukla sohbet edin
+* [Twitter](https://x.com/nanobrowser_ai) – Güncellemeler ve duyurular
+* [GitHub Discussions](https://github.com/nanobrowser/nanobrowser/discussions) – Fikirlerinizi paylaşın ve sorular sorun
+
+## 👏 Teşekkürler
+
+Nanobrowser, şu harika açık kaynak projeler üzerine inşa edilmiştir:
+
+* [Browser Use](https://github.com/browser-use/browser-use)
+* [Puppeteer](https://github.com/EmergenceAI/Agent-E)
+* [Chrome Extension Boilerplate](https://github.com/Jonghakseo/chrome-extension-boilerplate-react-vite)
+* [LangChain](https://github.com/langchain-ai/langchainjs)
+
+Tüm yaratıcılarına ve katkıda bulunanlara büyük teşekkürler!
+
+## 📄 Lisans
+
+Bu proje Apache License 2.0 ile lisanslanmıştır – detaylar için [LICENSE](LICENSE) dosyasına bakın.
+
+Sevgiyle yapıldı ❤️ Nanobrowser Ekibi tarafından.
+
+Nanobrowser’ı sevdiniz mi? Bize bir yıldız 🌟 verin ve topluluğumuza katılın: [Discord](https://discord.gg/NN3ABHggMK) | [X](https://x.com/nanobrowser_ai)
+
+---
+
+📘 **Türkçe çeviri katkısı**: Burak Can Öğüt
