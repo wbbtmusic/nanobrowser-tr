@@ -1,36 +1,40 @@
-# Contributing to NanoBrowser
+# NanoBrowser’a Katkıda Bulunmak
 
-We deeply appreciate your interest in contributing to NanoBrowser! Every contribution helps make Nanobrowser more powerful and accessible for everyone.
+NanoBrowser’a katkı sağlama ilginiz için çok teşekkür ederiz! Her katkı, NanoBrowser’ı herkes için daha güçlü ve erişilebilir hale getirir.
 
-## Quick Start
+## Hızlı Başlangıç
 
-1. Fork and clone the repository
-2. Create a new branch (`git checkout -b feature-name`)
-3. Make your changes
-4. Submit a Pull Request
+1. Depoyu çatallayın (fork) ve klonlayın  
+2. Yeni bir dal oluşturun (`git checkout -b ozellik-adi`)  
+3. Değişikliklerinizi yapın  
+4. Bir Pull Request gönderin
 
-## How Can I Contribute?
+## Nasıl Katkı Sağlayabilirim?
 
-### Reporting Bugs
-- Search existing issues first
-- Include:
-  - Clear description
-  - Steps to reproduce
-  - Environment details (OS, browser version)
-  - Screenshots if applicable
+### Hata Bildirme
+- Öncelikle mevcut sorunları (issues) arayın  
+- Şunları dahil edin:
+  - Açık ve net bir açıklama  
+  - Yeniden üretmek için adımlar  
+  - Ortam bilgileri (işletim sistemi, tarayıcı sürümü)  
+  - Varsa ekran görüntüleri  
 
-### Suggesting Enhancements
-- Open an issue with a clear title and detailed description
-- Explain why this enhancement would be useful
+### Geliştirme Önerileri
+- Açık bir başlık ve detaylı açıklama ile yeni bir issue açın  
+- Bu geliştirmenin neden faydalı olacağını açıklayın  
 
-### Code Contributions
-1. Follow the existing code style
-2. Write clear commit messages in present tense ("Add feature" not "Added feature")
-3. Test your changes thoroughly
-4. Update documentation if needed
-5. Create a Pull Request with a clear description
-6. Be responsive to feedback and address review comments promptly
+### Kod Katkıları
+1. Mevcut kod stiline uyun  
+2. Commit mesajlarını şimdiki zamanda ve açık yazın ("Özellik ekle" yerine "Özellik eklendi" yazmayın)  
+3. Değişikliklerinizi iyice test edin  
+4. Gerekirse belgeleri güncelleyin  
+5. Açıklayıcı bir tanım ile Pull Request oluşturun  
+6. Geri bildirimlere yanıt verin ve yorumları hızlıca ele alın
 
-## License
+## Lisans
 
-By contributing, you agree that your contributions will be licensed under the project's license terms.
+Katkı sağladığınızda, katkılarınızın projenin lisans şartlarına tabi olacağını kabul etmiş olursunuz.
+
+---
+
+**Çeviri:** Burak Can Öğüt
