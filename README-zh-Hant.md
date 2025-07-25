@@ -11,24 +11,24 @@
 
 </div>
 
-## 🌐 Nanobrowser
+# OrbisOP
 
-Nanobrowser 是一個在瀏覽器中運行的開源 AI 網頁自動化工具。它是 OpenAI Operator 的免費替代品，提供靈活的 LLM 選項和多代理系統。
+OrbisOP 是一個在瀏覽器中運行的開源 AI 網頁自動化工具。它是 OpenAI Operator 的免費替代品，提供靈活的 LLM 選項和多代理系統。
 
-⬇️ 免費從 [Chrome Web Store 獲取 Nanobrowser](https://chromewebstore.google.com/detail/nanobrowser/imbddededgmcgfhfpcjmijokokekbkal)
+⬇️ 免費從 [Chrome Web Store 獲取 OrbisOP](https://chromewebstore.google.com/detail/orbisop/imbddededgmcgfhfpcjmijokokekbkal)
 
-👏 加入 [Discord](https://discord.gg/NN3ABHggMK) | [X](https://x.com/nanobrowser_ai) 社群
+👏 加入 [xylarlabs.com/community](https://xylarlabs.com/community) 社群
 
-❤️ 喜歡 Nanobrowser？給我們一個星星 🌟 並幫助傳播消息！
+❤️ 喜歡 OrbisOP？給我們一個星星 🌟 並幫助傳播消息！
 
 <div align="center">
 <img src="https://github.com/user-attachments/assets/112c4385-7b03-4b81-a352-4f348093351b" width="600" alt="Nanobrowser Demo GIF" />
 <p><em>Nanobrowser 的多代理系統實時分析 HuggingFace，Planner 智能地在遇到障礙時自我糾正，並動態指導 Navigator 調整其方法—全部在您的瀏覽器中本地運行。</em></p>
 </div>
 
-## 🔥為什麼選擇 Nanobrowser？
+## 🔥為什麼選擇 OrbisOP？
 
-想要強大的 AI 網頁代理，但不想每月支付 OpenAI Operator $200 的費用？**Nanobrowser** 作為 Chrome 擴展程式，提供高級網頁自動化功能，同時讓您完全掌控：
+想要強大的 AI 網頁代理，但不想每月支付 OpenAI Operator $200 的費用？**OrbisOP** 作為 Chrome 擴展程式，提供高級網頁自動化功能，同時讓您完全掌控：
 
 - **100% 免費** - 沒有訂閱費或隱藏成本。只需安裝並使用您自己的 API keys，您只需支付使用自己 API keys 的費用。
 - **注重隱私** - 一切都在您的本地瀏覽器中運行。您的憑證保留在您這裡，絕不與任何雲服務共享。

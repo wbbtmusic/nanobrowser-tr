@@ -11,15 +11,15 @@
 
 </div>
 
-## 🌐 Nanobrowser
+# OrbisOP
 
-Nanobrowser es una herramienta de automatización web con IA que se ejecuta en tu navegador. Es una alternativa gratuita a OpenAI Operator, con opciones flexibles de modelos de lenguaje (LLM) y un sistema multiagente.
+OrbisOP es una herramienta de automatización web con IA que se ejecuta en tu navegador. Es una alternativa gratuita a OpenAI Operator, con opciones flexibles de modelos de lenguaje (LLM) y un sistema multiagente.
 
-⬇️ Descarga [Nanobrowser desde Chrome Web Store](https://chromewebstore.google.com/detail/nanobrowser/imbddededgmcgfhfpcjmijokokekbkal) gratis
+⬇️ Descarga [OrbisOP desde Chrome Web Store](https://chromewebstore.google.com/detail/orbisop/imbddededgmcgfhfpcjmijokokekbkal) gratis
 
-👏 Únete a la comunidad en [Discord](https://discord.gg/NN3ABHggMK) | [X](https://x.com/nanobrowser_ai)
+👏 Únete a la comunidad en [xylarlabs.com/community](https://xylarlabs.com/community)
 
-❤️ ¿Te encanta Nanobrowser? ¡Danos una estrella 🌟 y ayúdanos a correr la voz!
+❤️ ¿Te encanta OrbisOP? ¡Danos una estrella 🌟 y ayúdanos a correr la voz!
 
 <div align="center">
 <img src="https://github.com/user-attachments/assets/112c4385-7b03-4b81-a352-4f348093351b" width="600" alt="Nanobrowser Demo GIF" />

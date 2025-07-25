@@ -1,5 +1,3 @@
-# Security Policy
+# OrbisOP Security Policy
 
-## Reporting a Vulnerability
-
-Please create a [Github Security Advisory](https://github.com/nanobrowser/nanobrowser/security/advisories/new)
+Güvenlik açıklarını bildirmek için lütfen [xylarlabs.com/security](https://xylarlabs.com/security) adresini kullanın.

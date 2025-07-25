@@ -1,11 +1,10 @@
 {
   "extensionDescription": {
     "description": "Extension description",
-    "message": "Automate web tasks with AI! NanoBrowser is an open-source Chrome extension that lets you extract data, fill forms, and more."
+    "message": "OrbisOP - browser AI automation extension by xylarlabs.com"
   },
   "extensionName": {
-    "description": "Extension name",
-    "message": "Nanobrowser: AI Web Agent & Automation"
+    "message": "OrbisOP"
   },
   "toggleTheme": {
     "message": "Toggle theme"

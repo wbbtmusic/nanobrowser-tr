@@ -1,6 +1,6 @@
-# NanoBrowser’a Katkıda Bulunmak
+# OrbisOP Katkı Rehberi
 
-NanoBrowser’a katkı sağlama ilginiz için çok teşekkür ederiz! Her katkı, NanoBrowser’ı herkes için daha güçlü ve erişilebilir hale getirir.
+OrbisOP projesine katkı sağlamak için lütfen [xylarlabs.com/contribute](https://xylarlabs.com/contribute) adresini ziyaret edin.
 
 ## Hızlı Başlangıç
 

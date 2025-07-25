@@ -31,6 +31,7 @@ export default function ChatInput({
   onReplay,
 }: ChatInputProps) {
   const [text, setText] = useState('');
+  const [language, setLanguage] = useState<'TR' | 'ENG' | 'ES' | 'RU'>('ENG');
   const isSendButtonDisabled = useMemo(() => disabled || text.trim() === '', [disabled, text]);
   const textareaRef = useRef<HTMLTextAreaElement>(null);
 
@@ -93,9 +94,21 @@ export default function ChatInput({
   return (
     <form
       onSubmit={handleSubmit}
-      className={`overflow-hidden rounded-lg border transition-colors ${disabled ? 'cursor-not-allowed' : 'focus-within:border-sky-400 hover:border-sky-400'} ${isDarkMode ? 'border-slate-700' : ''}`}
+      className={`overflow-hidden rounded-lg border transition-colors ${disabled ? 'cursor-not-allowed' : 'focus-within:border-gray-400 hover:border-gray-400'} ${isDarkMode ? 'border-gray-700' : ''}`}
       aria-label="Chat input form">
       <div className="flex flex-col">
+        <div className="flex items-center justify-between mb-1">
+          <span className="text-xs text-gray-400">Language:</span>
+          <select
+            value={language}
+            onChange={e => setLanguage(e.target.value as any)}
+            className="rounded border border-gray-600 bg-black text-white text-xs px-2 py-1 focus:outline-none">
+            <option value="TR">TR</option>
+            <option value="ENG">ENG</option>
+            <option value="ES">ES</option>
+            <option value="RU">RU</option>
+          </select>
+        </div>
         <textarea
           ref={textareaRef}
           value={text}
@@ -107,10 +120,10 @@ export default function ChatInput({
           className={`w-full resize-none border-none p-2 focus:outline-none ${
             disabled
               ? isDarkMode
-                ? 'cursor-not-allowed bg-slate-800 text-gray-400'
+                ? 'cursor-not-allowed bg-gray-800 text-gray-400'
                 : 'cursor-not-allowed bg-gray-100 text-gray-500'
               : isDarkMode
-                ? 'bg-slate-800 text-gray-200'
+                ? 'bg-gray-800 text-gray-200'
                 : 'bg-white'
           }`}
           placeholder="What can I help you with?"

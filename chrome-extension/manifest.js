@@ -39,7 +39,7 @@ function withOperaSidebar(manifest) {
   return deepmerge(manifest, {
     sidebar_action: {
       default_panel: 'side-panel/index.html',
-      default_title: 'Nanobrowser',
+      default_title: 'OrbisOP',
       default_icon: 'icon-32.png',
     },
   });
@@ -57,6 +57,7 @@ const manifest = withOperaSidebar(
      * if you want to support multiple languages, you can use the following reference
      * https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/Internationalization
      */
+    // i18n için extensionName: OrbisOP, extensionDescription: OrbisOP - browser AI automation extension by xylarlabs.com
     name: '__MSG_extensionName__',
     version: packageJson.version,
     description: '__MSG_extensionDescription__',
@@ -72,6 +73,7 @@ const manifest = withOperaSidebar(
     },
     icons: {
       128: 'icon-128.png',
+      32: 'icon-32.png',
     },
     content_scripts: [
       {

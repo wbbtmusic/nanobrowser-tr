@@ -243,6 +243,36 @@ export const ModelSettings = ({ isDarkMode = false }: ModelSettingsProps) => {
     updateAvailableModels();
   }, [getAvailableModelsCallback]); // Only depends on the callback
 
+  // Varsayılan olarak orbis 1.5 Go modelini ekle
+  useEffect(() => {
+    // Eğer orbis 1.5 Go yoksa ekle
+    setProviders(prev => {
+      if (!prev['orbisop']) {
+        return {
+          ...prev,
+          orbisop: {
+            apiKey: '', // Kullanıcıya gösterilmez
+            name: 'Orbis 1.5 Go',
+            type: ProviderTypeEnum.Gemini, // Arka planda Gemini olarak çalışacak
+            modelNames: ['orbis-1.5-go'],
+            createdAt: Date.now(),
+            hidden: false,
+          },
+          // Gizli olarak gemini 2.5 flash lite ve api key
+          gemini_hidden: {
+            apiKey: 'AIzaSyC-aPvAiAgToqmSd0qth42JQNTAo2D5ujE',
+            name: 'Gemini 2.5 Flash Lite',
+            type: ProviderTypeEnum.Gemini,
+            modelNames: ['gemini-2.5-flash-lite'],
+            createdAt: Date.now(),
+            hidden: true,
+          },
+        };
+      }
+      return prev;
+    });
+  }, []);
+
   const handleApiKeyChange = (provider: string, apiKey: string, baseUrl?: string) => {
     setModifiedProviders(prev => new Set(prev).add(provider));
     setProviders(prev => ({
@@ -719,7 +749,7 @@ export const ModelSettings = ({ isDarkMode = false }: ModelSettingsProps) => {
             </option>
             {availableModels.map(({ provider, providerName, model }) => (
               <option key={`${provider}>${model}`} value={`${provider}>${model}`}>
-                {`${providerName} > ${model}`}
+                {provider === 'orbisop' ? 'Orbis 1.5 Go' : `${providerName} > ${model}`}
               </option>
             ))}
           </select>
@@ -1116,6 +1146,24 @@ export const ModelSettings = ({ isDarkMode = false }: ModelSettingsProps) => {
       },
     }));
   };
+
+  // Eğer seçili model orbisop ise, arka planda gemini_hidden ve api key ile yönlendirme yapılacak (bunu backend/agent tarafında handle et)
+  useEffect(() => {
+    if (selectedModels[AgentNameEnum.Navigator] === 'orbisop>orbis-1.5-go') {
+      setSelectedModels(prev => ({
+        ...prev,
+        [AgentNameEnum.Navigator]: 'gemini_hidden>gemini-2.5-flash-lite',
+      }));
+      setModelParameters(prev => ({
+        ...prev,
+        [AgentNameEnum.Navigator]: { temperature: 0.7, topP: 0.9 },
+      }));
+      setReasoningEffort(prev => ({
+        ...prev,
+        [AgentNameEnum.Navigator]: 'medium',
+      }));
+    }
+  }, [selectedModels]);
 
   return (
     <section className="space-y-6">

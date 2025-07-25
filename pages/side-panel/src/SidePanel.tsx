@@ -1013,7 +1013,7 @@ const SidePanel = () => {
                 ← Back
               </button>
             ) : (
-              <img src="/icon-128.png" alt="Extension Logo" className="size-6" />
+              <img src="/icon-128.png" alt="OrbisOP Logo" className="size-6" />
             )}
           </div>
           <div className="header-icons">
@@ -1086,32 +1086,28 @@ const SidePanel = () => {
               <div
                 className={`flex flex-1 items-center justify-center p-8 ${isDarkMode ? 'text-sky-300' : 'text-sky-600'}`}>
                 <div className="max-w-md text-center">
-                  <img src="/icon-128.png" alt="Nanobrowser Logo" className="mx-auto mb-4 size-12" />
-                  <h3 className={`mb-2 text-lg font-semibold ${isDarkMode ? 'text-sky-200' : 'text-sky-700'}`}>
-                    Welcome to Nanobrowser!
-                  </h3>
+                  <img src="/icon-128.png" alt="OrbisOP Logo" className="mx-auto mb-4 size-12" />
+                  <h3 className={`mb-2 text-lg font-semibold ${isDarkMode ? 'text-gray-100' : 'text-gray-900'}`}>Welcome to OrbisOP!</h3>
                   <p className="mb-4">To get started, please configure your API keys in the settings page.</p>
                   <button
                     onClick={() => chrome.runtime.openOptionsPage()}
-                    className={`my-4 rounded-lg px-4 py-2 font-medium transition-colors ${
-                      isDarkMode ? 'bg-sky-600 text-white hover:bg-sky-700' : 'bg-sky-500 text-white hover:bg-sky-600'
-                    }`}>
+                    className={`my-4 rounded-lg px-4 py-2 font-medium transition-colors ${isDarkMode ? 'bg-gray-800 text-white hover:bg-gray-900' : 'bg-gray-900 text-white hover:bg-gray-800'}`}>
                     Open Settings
                   </button>
                   <div className="mt-4 text-sm opacity-75">
                     <a
-                      href="https://github.com/nanobrowser/nanobrowser?tab=readme-ov-file#-quick-start"
+                      href="https://xylarlabs.com/docs/orbisop-quick-start"
                       target="_blank"
                       rel="noopener noreferrer"
-                      className={`${isDarkMode ? 'text-sky-400 hover:text-sky-300' : 'text-sky-700 hover:text-sky-600'}`}>
+                      className={`${isDarkMode ? 'text-gray-400 hover:text-gray-200' : 'text-gray-900 hover:text-black'}`}>
                       Quick Start Guide
                     </a>
                     <span className="mx-2">•</span>
                     <a
-                      href="https://discord.gg/NN3ABHggMK"
+                      href="https://xylarlabs.com/community"
                       target="_blank"
                       rel="noopener noreferrer"
-                      className={`${isDarkMode ? 'text-sky-400 hover:text-sky-300' : 'text-sky-700 hover:text-sky-600'}`}>
+                      className={`${isDarkMode ? 'text-gray-400 hover:text-gray-200' : 'text-gray-900 hover:text-black'}`}>
                       Join Our Community
                     </a>
                   </div>
